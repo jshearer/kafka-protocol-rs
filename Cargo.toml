@@ -38,7 +38,7 @@ crc = "3.0.0"
 snap = "1.0.5"
 flate2 = "1.0.20"
 zstd = "0.13"
-lz4 = "1.24"
+lz4 = { git = "https://github.com/jshearer/lz4-rs.git", branch = "jshearer/correctly_set_block_checksum_mode" }
 paste = "1.0.7"
 crc32c = "0.6.4"
 anyhow = "1.0.80"
